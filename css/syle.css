@@ -25,6 +25,11 @@ footer {
     margin: 50px;
   }
 
+.duranite-project {
+margin-top: 50px;
+}
+
+
   footer:hover {
 color: red;
   }
