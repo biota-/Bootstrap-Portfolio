@@ -13,14 +13,13 @@
     <link rel="stylesheet" href="css/style.css">
 
     <title>D Portfolio</title>
-
 </head>
 
 <body>
 
     <!-- Nav bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -29,25 +28,35 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
+                        About me
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#myWork">My Work</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#aboutMe">About Me</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#contact">Contact</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projects
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#cssGrid">CSS Grid</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#adeptus">Adeptus Project</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#duranite">Duranite Project</a>
+                    </div>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -63,28 +72,33 @@
         <div class="container-fluid">
             <div class="row">
 
-                <div class="cardContainer col-lg-3 col-md-4 col-sm-6">
+                <div class="cardContainer col-lg-4 col-md-4 col-sm-6">
                     <div class="card">
                         <img src="images/DF cwg.jpg" class="card-img-top" alt="screenshot of my 1st portfolio">
                         <div class="card-body">
-                            <h5 class="card-title">Used a card</h5>
-                            <p class="card-text">Look at improving later</p>
-                            <a href="#" target="_blank" class="btn btn-primary">*go to section </a>
+                            <h5 class="card-title">Danny Fisher </h5>
+                            <p class="card-text"> Gold Coast 2018 </p>
+
                         </div>
                     </div>
                 </div>
 
-                <div class=" col-lg-9 col-md-8 col-sm-6">
+                <div class=" col-lg-8 col-md-8 col-sm-6">
                     <h1 class="display-4">Work Portfolio | <small>Front End Bootcamp</small></h1>
                     <h4 class="display-#"> Winter 2022-23</h4>
 
                     <!-- Display-#(1-4) changes Heading styles | <small> creates different styled headings -->
-                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
-                        attention to featured content or information.</p>
+                    <p class="lead">I am a civil engineer with broad ranging experience across construction and ground
+                        engineering projects, in both technical and management roles.
+                        <br>
+                        <br>
+                        For quite some time now I've found myself drawn towards figuring out how to put websites
+                        together...
+                    </p>
                     <hr class="my-4">
-                    <p>It uses utility classes for typography and spacing to space content out within the larger
-                        container.</p>
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                    <p class="lead">I was a member of the Gold Coast 2018 Commonwealth Games England Wrestling Team.
+                    </p>
+                    <a class="btn btn-primary btn-lg" href="#contact" role="button">Contact me</a>
                 </div>
 
 
@@ -97,9 +111,9 @@
         <div class="row mx-3 my-3">
 
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <h2 class="display-5 mb-4">My Work </h2>
+                <h2 class="display-5 mb-4" id="myWork">My Work </h2>
 
-                <p>It's almost 15 years now since I paid 50% deposit to website agency. Things
+                <p>It's almost 15 years now since I paid 50% deposit to a seemingly credible web design studio. Things
                     went downhill from there; they effectively sold me a template, and I eventually kissed goodbye to my
                     money.
                     <br>
@@ -118,24 +132,16 @@
                     <br>
                     For the Duranite and Adeptus sites I was able to devise all content and necessary elements, and
                     wireframe the
-                    sites around this. Then I used an experienced graphic designer for the 'look and feel'.
+                    sites around these. Then I used an experienced graphic designer for the 'look and feel', and had the
+                    whole thing coded. I am hopeful I will be able to code Adeptus v2.0 myself.
                     <br>
                     <br>
-                    Copywriting has seemed to come naturally to me, although at first high quality took me an
+                    Copywriting has seemed to come naturally to me, although at first, it took me an
                     inordinate amount of time. Even so, I would say that effective copywriting has been my highest ROI
                     activity to date.
                     <br>
                     <br>
-                    Naturally I was thrilled to finally find a viable way of learning to code: to learn while doing.
-                    <br> And here
-                    we are!
-                    <br>
-                    <br>
-                    Being acutely aware of the "coders aren't designers" conundrum, I am also excited about the UI/UX
-                    aspects of the course.
 
-                    Going forward I am interested to build design skills, or at least the vocabulary to allow me to
-                    describe a vision more effectively.
                 </p>
 
             </div>
@@ -144,12 +150,13 @@
 
     <!--  Cards... -->
     <div class="container-fluid">
-        <div class="row mb-5">
+        <div class="row mb-4">
+
             <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
                 <div class="card">
                     <img src="images/df-portfolio-mk1.png" class="card-img-top" alt="screenshot of my 1st portfolio">
                     <div class="card-body">
-                        <h5 class="card-title">CSS Grid Attempt</h5>
+                        <h5 class="card-title" id="cssGrid">CSS Grid Attempt</h5>
                         <p class="card-text">On this my first attempt at producing a CSS Grid, I spent more than a day
                             trying to decipher the starter code. Only when I began with a blank page and
                             wrote my own selectors did it begin to make sense!</p>
@@ -164,10 +171,11 @@
                 <div class="card">
                     <img src="images/adeptus-website 2018.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Adeptus Project (2018)</h5>
-                        <p class="card-text">Based on the realisation I preferred selling knowledge over physical work,
-                            I completed an MSc in applied environemntal chemisrty part time, and now work as an
-                            enivironmental surveyor.</p>
+                        <h5 class="card-title" id="adeptus">Adeptus Project (2018)</h5>
+                        <p class="card-text">In construction I grew tired of effectively giving away free surveys at the
+                            tender stage. With this motivation I completed an MSc in applied environmental chemistry
+                            part time, and now work as an
+                            environmental surveyor.</p>
                         <a href="https://adeptus.co.uk/" class="btn btn-primary">adeptus.co.uk</a>
                     </div>
                 </div>
@@ -177,11 +185,11 @@
                 <div class="card">
                     <img src="images/Duranite-site-2013.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title mt-4">Duranite Project (2011)</h5>
+                        <h5 class="card-title mt-4" id="duranite">Duranite Project (2011)</h5>
                         <p class="card-text">I came up with the brand, content, wireframe and a basic version of the
                             cross section image on the homepage. Having no training in marketing or design, I managed to
-                            communicate my vision to others with those skills, and ultimely make it a reality.</p>
-                        <a href="https://web.archive.org/web/20130214205329/http://www.duranite.co.uk/"
+                            communicate my vision to others with those skills, and ultimately make it a reality.</p>
+                        <a href="https://web.archive.org/web/20130214205329/http://www.duranite.co.uk/" target="_blank"
                             class="btn btn-primary px-4">Wayback </a>
                     </div>
                 </div>
@@ -195,80 +203,67 @@
         <div class="row mx-5 my-1">
 
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <h2 class="display-5 mb-4">My Skills </h2>
-                Skills, and those I hope to learn...
-                <p class="mb-4"> 1. List out the skills you expect to learn from the bootcamp. </p>
+                <h2 class="display-5 mb-4" id="mySkills">My Skills </h2>
+
+                <p class="mb-4"> I am excited to have found a viable way to finally learn to code: to learn while doing.
+                    <br>
+                    <br>
+                    Being acutely aware of the "coders aren't designers" conundrum, I am also very interested in the
+                    UI/UX
+                    aspects of the course.
+                    <br>
+                    <br>
+                    Going forward I am interested to build design skills, or at least the vocabulary to allow me to
+                    describe a vision more effectively.
+                    <br>
+                    <br>
+                    Here's another site I created for a family member https://fasterlocksmiths.co.uk/
+                    <br>
+                </p>
             </div>
         </div>
 
         <div class="row mx-1 my-3">
-            <div class="col-lg-6 col-md-5 col-sm-4">
 
-                <h2 class="display-5 mb-4">About Me </h2>
-                <p class="about-me">Almost 15 years ago now I contracted with a web development agency and paid the 50%
-                    deposit.
-                    Things went
-                    downhill from there; they effectively sold me a template, and I ultimately kissed goodbye to
-                    my money.
+            <div class="col-lg-6 col-md-5 col-sm-4">
+                <h2 class="display-5 mb-4" id="aboutMe">About Me </h2>
+                <p> I can be a be a bit of a perfectionist.
+                    While this is sometimes a negative (definitely annoys my wife), I like how coding and development
+                    allow me to get a rough draft working and fiddle with something until it's just right.
                     <br>
                     <br>
-                    Ready to hear a joke? I asked them to change the menu and they said "not possible as it's an
-                    image..."
-                    <strong>I mean, what!</strong>
+                    I like a challenge, and managed to complete an MSc while working full time hours. Now I get paid to
+                    look at fields and play with mud (samples)!
+                    &#128526
                     <br>
+                    <br>
+                    I am working on a database application for use in the surveying work, and I'm sure this course will
+                    help me put the front end together!
                 </p>
             </div>
 
-            <div class="col-lg-6 col-md-5 col-sm-4">
-                <h2 class="display-5 mb-4">Contact Me </h2>
-                <p>Since then I've started three businesses marketed solely online. I've done this by
-                    wireframing and
-                    writing the content, and then having a really good graphic designer put a skin over it.
-                    <br>
-                    <br>
-                    Then I've used a combination of WP themes, visual editors, and a sprinkling of developers to
-                    make the
-                    sites a reality.
-                    <br>
-                    I always wanted to code but just didn't have the time to learn - until now!
+            <div class="col-lg-4 col-md-5 col-sm-4">
+                <h2 class="display-5 mb-4" id="contact">Contact Me </h2>
+                <p>I can be contacted via any of the details below.
                 </p>
             </div>
 
         </div>
     </div>
+
+
+
+
+
 
 
     <footer class="footer">
-        <div class="container">
-            <span class="text-">Place sticky footer content here.</span>
-            <a href="https://edx.adeptus.co.uk/" target="_blank">Visit page... </a>
+        <div class="d-flex flex-row-reverse">
+            <p class="mx-3"> <a href="https://www.linkedin.com/in/dannyfisher80/" target="_blank">Linkedin</a></p>
+            <p class="mx-3"> <a href="https://twitter.com/fannydisher/" target="_blank">Twitter</a></p>
+            <p class="mx-3"> <a href="https://www.facebook.com/danny.r.fisher" target="_blank">Facebook</a></p>
         </div>
     </footer>
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
 
 
 
@@ -290,7 +285,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-
 
 
 </body>

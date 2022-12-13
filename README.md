@@ -1,8 +1,8 @@
 # Bootstrap-Portfolio
 
-## In week 3 of the bootcamp we have dicovered the benefits of Bootstrap CSS (Bootstrap). To familiarise ourselves with using Bootstrap we were tasked with creating a further portfolio using the same. 
+## In week 3 of the bootcamp we have discovered the benefits of Bootstrap CSS (Bootstrap). To familiarise ourselves with using Bootstrap we were tasked with creating a further portfolio using the same. 
 
-### According to the brief a portfolio should include the following elements and funcionality.
+### According to the brief a portfolio should include the following elements and functionality.
 
 
 ### A) Navigation bar
